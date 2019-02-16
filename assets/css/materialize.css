@@ -1,0 +1,32 @@
+header {
+    background: url("../images/pexel1.jpeg");
+    background-size: cover;
+    background-position: center;
+    min-height: 1000px;
+    font-family: 'Gentium Book Basic', serif;
+}
+#cardimg {
+    filter: gray; /* IE5+ */
+    -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+    -webkit-transition: all .8s ease-in-out;  
+}
+
+#cardimg:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.01);
+}
+
+@media screen and (max-width: 670px){
+    header{
+        min-height: 500px;
+    }
+    #wedding{
+        min-height: 500px;
+    }
+}
+
+#menuText{
+    font-size: 24px;
+    font: bolder;
+}
